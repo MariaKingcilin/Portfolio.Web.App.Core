@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma, MapPin } from "lucide-react";
+import { Figma, Github, MapPin, Twitter } from "lucide-react";
 import HeroImage from "../assets/hero-img.png";
 
 export function Hero() {

@@ -1,5 +1,5 @@
-import { SectionHeading } from "./SectionHeading";
 import TritonLogo from "../assets/triton-logo.ico";
+import { SectionHeading } from "./SectionHeading";
 
 const experiences = [
   {

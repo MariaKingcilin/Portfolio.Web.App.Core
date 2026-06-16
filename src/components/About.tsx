@@ -1,5 +1,5 @@
-import { SectionHeading } from "./SectionHeading";
 import AboutImage from "../assets/about-img.png";
+import { SectionHeading } from "./SectionHeading";
 
 export function About() {
   return (

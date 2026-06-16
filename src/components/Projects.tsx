@@ -36,11 +36,10 @@ export function Projects() {
 
         <div className="space-y-12 md:space-y-24">
           {projects.map((project, index) => (
-            <div 
+            <div
               key={index}
-              className={`flex flex-col md:flex-row shadow-sm rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 transition-colors ${
-                index % 2 !== 0 ? 'md:flex-row-reverse' : ''
-              }`}
+              className={`flex flex-col md:flex-row shadow-sm rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 transition-colors ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''
+                }`}
             >
               {/* Image Section */}
               <div className="flex-1 bg-gray-50 dark:bg-gray-900/40 p-8 md:p-12 flex items-center justify-center transition-colors border-b md:border-b-0 border-gray-100 dark:border-gray-800">
@@ -59,7 +58,7 @@ export function Projects() {
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
                   {project.tags.map(tag => (
-                    <span 
+                    <span
                       key={tag}
                       className="px-3 py-1 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium transition-colors"
                     >
@@ -68,7 +67,7 @@ export function Projects() {
                   ))}
                 </div>
                 <div>
-                  <a 
+                  <a
                     href={project.link}
                     target="_blank"
                     rel="noreferrer"

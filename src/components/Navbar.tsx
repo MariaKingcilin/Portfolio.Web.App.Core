@@ -1,4 +1,4 @@
-import { Moon, Sun, Menu, X } from 'lucide-react';
+import { Menu, Moon, Sun, X } from 'lucide-react';
 import { useState } from 'react';
 import { useTheme } from '../hooks/useTheme';
 

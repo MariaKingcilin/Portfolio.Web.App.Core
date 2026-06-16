@@ -32,12 +32,12 @@ export function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div 
+            <div
               key={index}
               className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col items-center text-center transition-colors"
             >
-              <img 
-                src={testimonial.avatar} 
+              <img
+                src={testimonial.avatar}
                 alt={testimonial.name}
                 className="w-16 h-16 rounded-full mb-6"
               />

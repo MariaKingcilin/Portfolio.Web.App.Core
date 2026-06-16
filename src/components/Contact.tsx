@@ -1,6 +1,6 @@
-import { SectionHeading } from './SectionHeading';
-import { Mail, Phone, Copy, Github, Twitter, Figma } from 'lucide-react';
+import { Copy, Figma, Github, Mail, Phone, Twitter } from 'lucide-react';
 import { useState } from 'react';
+import { SectionHeading } from './SectionHeading';
 
 export function Contact() {
   const email = 'mariakingcilin@gmail.com';

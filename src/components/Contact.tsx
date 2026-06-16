@@ -1,4 +1,4 @@
-import { Copy, Figma, Github, Mail, Phone, Twitter } from 'lucide-react';
+import { Copy, Github, Linkedin, Mail, Phone } from 'lucide-react';
 import { useState } from 'react';
 import { SectionHeading } from './SectionHeading';
 
@@ -36,7 +36,7 @@ export function Contact() {
             </h2>
             <button
               onClick={() => handleCopy(email, 'email')}
-              className="p-2 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors relative"
+              className="p-2 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors relative cursor-pointer"
               aria-label="Copy email"
             >
               <Copy size={32} />
@@ -55,7 +55,7 @@ export function Contact() {
             </h2>
             <button
               onClick={() => handleCopy(phone, 'phone')}
-              className="p-2 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors relative"
+              className="p-2 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors relative cursor-pointer"
               aria-label="Copy phone number"
             >
               <Copy size={32} />
@@ -71,14 +71,17 @@ export function Contact() {
         <div className="mt-16 flex flex-col items-center gap-4 text-gray-600 dark:text-gray-300">
           <p>You may also find me on these platforms!</p>
           <div className="flex items-center gap-4">
-            <a href="#" className="p-2 hover:text-gray-900 dark:hover:text-white transition-colors">
+            <a href="https://github.com/MariaKingcilin"
+              target="_blank" className="p-2 hover:text-gray-900 dark:hover:text-white transition-colors">
               <Github size={24} />
             </a>
-            <a href="#" className="p-2 hover:text-gray-900 dark:hover:text-white transition-colors">
-              <Twitter size={24} />
+            <a href="https://www.linkedin.com/in/maria-kingcilin-788878398/"
+              target="_blank" className="p-2 hover:text-gray-900 dark:hover:text-white transition-colors">
+              <Linkedin size={24} />
             </a>
-            <a href="#" className="p-2 hover:text-gray-900 dark:hover:text-white transition-colors">
-              <Figma size={24} />
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mariakingcilin@gmail.com"
+              target="_blank" className="p-2 hover:text-gray-900 dark:hover:text-white transition-colors">
+              <Mail size={24} />
             </a>
           </div>
         </div>

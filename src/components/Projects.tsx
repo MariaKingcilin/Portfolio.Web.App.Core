@@ -1,27 +1,30 @@
 import { ExternalLink } from 'lucide-react';
+import Hawkeye from "../assets/hawkeye-img.png";
+import MamaEarth from "../assets/mamaearth-img.png";
+import MandlacX from "../assets/mandlacx-img.png";
 import { SectionHeading } from './SectionHeading';
 
 const projects = [
   {
-    title: 'Fiskil',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-    tags: ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'TailwindCSS', 'Figma', 'Cypress', 'Storybook', 'Git'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
-    link: '#'
+    title: 'Mamaearth Clone',
+    description: 'Mamaearth Clone | React.js, Redux Toolkit, Firebase Developed a fully functional e-commerce web application featuring product categorization (Baby, Face, Hair, Body), dynamic product details, a robust cart system, and secure checkout flow. Built with a focus on responsive UI and efficient state management.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Firebase', 'Sass', 'Git', 'Material UI', 'Redux', 'React Router', 'Axios'],
+    image: MamaEarth,
+    link: 'https://mamaearth-clone-web.vercel.app/'
   },
   {
-    title: 'Fiskil',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-    tags: ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'TailwindCSS', 'Figma', 'Cypress', 'Storybook', 'Git'],
-    image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=800&auto=format&fit=crop',
-    link: '#'
+    title: 'Mandlac X',
+    description: 'Enhanced responsive web and mobile features utilizing React.js and React Native, Integrated REST APIs for dynamic data rendering and implemented Firebase Cloud Messaging(FCM) for push notifications, Executed WebSocket communication to enable real-time device interaction.',
+    tags: ['HTML', 'CSS', 'TypeScript', 'React', 'TailwindCSS', 'Figma', 'Git', 'Shadcn UI', 'Axios', 'React Router', 'Socket.io', 'React Native', 'Firebase', 'React Query'],
+    image: MandlacX,
+    link: 'https://mx-ids-ui-dev.azurewebsites.net/'
   },
   {
-    title: 'Fiskil',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-    tags: ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'TailwindCSS', 'Figma', 'Cypress', 'Storybook', 'Git'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
-    link: '#'
+    title: 'Hawkeye',
+    description: 'Built a real-time monitoring web app for capturing vehicle weight and live images, Deployed WebSocket protocols to ensure seamless hardware-to-software communication, Designed a responsive UI and optimized frontend performance for high-traffic monitoring.',
+    tags: ['HTML', 'CSS', 'TypeScript', 'React', 'TailwindCSS', 'Figma', 'Git', 'Shadcn UI', 'Axios', 'React Router', 'Socket.io', 'Zod', 'React Query', 'Zustand'],
+    image: Hawkeye,
+    link: 'https://hawkeyeqas.nipponpaint.co.in/'
   }
 ];
 
@@ -44,7 +47,7 @@ export function Projects() {
               {/* Image Section */}
               <div className="flex-1 bg-gray-50 dark:bg-gray-900/40 p-8 md:p-12 flex items-center justify-center transition-colors border-b md:border-b-0 border-gray-100 dark:border-gray-800">
                 <div className="relative rounded-xl overflow-hidden shadow-lg w-full transition-transform hover:scale-105 duration-300">
-                  <img src={project.image} alt={project.title} className="w-full h-auto object-cover" />
+                  <img src={project.image} alt={project.title} className="w-full h-full object-fit" />
                 </div>
               </div>
 

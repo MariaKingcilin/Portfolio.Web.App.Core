@@ -1,4 +1,4 @@
-import { Figma, Github, MapPin, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import HeroImage from "../assets/hero-img.png";
 
 export function Hero() {
@@ -29,22 +29,25 @@ export function Hero() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="https://github.com/MariaKingcilin"
+            target="_blank"
             className="p-2 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
           >
             <Github size={24} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/maria-kingcilin-788878398/"
+            target="_blank"
             className="p-2 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
           >
-            <Twitter size={24} />
+            <Linkedin size={24} />
           </a>
           <a
-            href="#"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=mariakingcilin@gmail.com"
+            target="_blank"
             className="p-2 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
           >
-            <Figma size={24} />
+            <Mail size={24} />
           </a>
         </div>
       </div>

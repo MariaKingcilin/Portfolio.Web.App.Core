@@ -1,5 +1,6 @@
 import { Menu, Moon, Sun, X } from 'lucide-react';
 import { useState } from 'react';
+import Resume from "../assets/maria_kingcilin.pdf";
 import { useTheme } from '../hooks/useTheme';
 
 const navLinks = [
@@ -18,7 +19,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <a href="#" className="font-bold text-2xl tracking-tighter">
+            <a href="#" className="text-4xl tracking-tighter satisfy-regular">
               {"Mariya"}
             </a>
           </div>
@@ -38,13 +39,13 @@ export function Navbar() {
             <div className="flex items-center gap-4">
               <button
                 onClick={toggleTheme}
-                className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 transition-colors"
+                className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 transition-colors cursor-pointer"
                 aria-label="Toggle Theme"
               >
                 {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
               </button>
               <a
-                href="/resume.pdf"
+                href={Resume}
                 target="_blank"
                 rel="noreferrer"
                 className="bg-gray-900 text-gray-50 hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white px-4 py-2 rounded-xl font-medium transition-colors"

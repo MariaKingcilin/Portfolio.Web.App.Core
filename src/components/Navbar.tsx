@@ -46,8 +46,7 @@ export function Navbar() {
               </button>
               <a
                 href={Resume}
-                target="_blank"
-                rel="noreferrer"
+                download
                 className="bg-gray-900 text-gray-50 hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white px-4 py-2 rounded-xl font-medium transition-colors"
               >
                 Download CV
@@ -90,7 +89,8 @@ export function Navbar() {
             ))}
             <li className="pt-4 px-3">
               <a
-                href="/resume.pdf"
+                href={Resume}
+                download
                 className="block w-full text-center bg-gray-900 text-gray-50 hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white px-4 py-3 rounded-xl font-medium transition-colors"
               >
                 Download CV

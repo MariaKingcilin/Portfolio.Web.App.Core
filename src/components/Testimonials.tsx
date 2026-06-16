@@ -5,7 +5,7 @@ const testimonials = [
     name: 'John Doe',
     title: 'Founder - xyz.com',
     avatar: 'https://ui-avatars.com/api/?name=John+Doe&background=random&color=fff&rounded=true',
-    quote: '"Job well done! I am really impressed. He is very very good at what he does :) I would recommend Sagar and will definitely work with him again."'
+    quote: '"Job well done! I am really impressed. He is very very good at what he does :) I would recommend Maria Kingcilin and will definitely work with him again."'
   },
   {
     name: 'Jane Doe',
@@ -17,7 +17,7 @@ const testimonials = [
     name: 'Alice Smith',
     title: 'Freelancer',
     avatar: 'https://ui-avatars.com/api/?name=Alice+Smith&background=random&color=fff&rounded=true',
-    quote: '"Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to immediately dive into our project and make an impact."'
+    quote: '"Maria Kingcilin was extremely easy and pleasant to work with and he truly cares about the project being a success. Maria Kingcilin has a high level of knowledge and was able to immediately dive into our project and make an impact."'
   }
 ];
 
